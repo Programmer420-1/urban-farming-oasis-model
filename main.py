@@ -8,9 +8,7 @@ import io
 
 from xml.etree import ElementTree as ET
 
-
-model = "gpt-3.5-turbo"
-max_tokens = 500
+# os.environ['OPENAI_API_KEY'] = "<Your OPENAI_API_KEY>"
 
 client = OpenAI()
 
