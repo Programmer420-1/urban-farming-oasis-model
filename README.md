@@ -8,10 +8,10 @@ For the Crops Recommendation module, we harnesses the power of LLM, in our case 
 The prompt has been specifically designed and tested so that the LLM provide only the relevant information based on the geographical information, indoor farming contraints and other relevant concerns.
 The LLM Model we used here is `gpt-4-1106-preview`, the latest review.
 
-This project has been hosted on (Render)(). Note that this is a prototype and is not a production release. Only the main functions are developed and many more are in progress.
+This project has been hosted on (Render)(https://ufo-model.onrender.com). Note that this is a prototype and is not a production release. Only the main functions are developed and many more are in progress.
 
 ## Run the server locally
-All of the development and testing are done on a Windows 10 machine.
+All of the development and testing are done on a Windows 10 machine, Python 3.11.
 1. To run it locally, you need to have the OpenAI Key to access the ChatGPT API. Refer to this [official documentation](https://help.openai.com/en/articles/4936850-where-do-i-find-my-api-key) to learn how to get one.
 Edit the  `main.py` file to fill in your API key.
 
