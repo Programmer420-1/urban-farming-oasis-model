@@ -8,7 +8,7 @@ For the Crops Recommendation module, we harnesses the power of LLM, in our case 
 The prompt has been specifically designed and tested so that the LLM provide only the relevant information based on the geographical information, indoor farming contraints and other relevant concerns.
 The LLM Model we used here is `gpt-4-1106-preview`, the latest review.
 
-This project has been hosted on (Render)(https://ufo-model.onrender.com). Note that this is a prototype and is not a production release. Only the main functions are developed and many more are in progress.
+Note that this is a prototype and is not a production release. Only the main functions are developed and many more are in progress.
 
 ## Run the server locally
 All of the development and testing are done on a Windows 10 machine, Python 3.11.
@@ -26,4 +26,6 @@ os.environ['OPENAI_API_KEY'] = "<Your OPENAI_API_KEY>"
 The server should be running at `http://localhost:5000` and start listening for incoming requests.
 
 Currently, the only endpoint available is `http://localhost:5000/predict_soil`.
+
+If you do not have the OpenAI API Key, contact me (Davian Lim) via the DevHack Facilitator of Team Ambatukamehameha to get one for testing. 
 
